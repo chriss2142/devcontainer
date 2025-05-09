@@ -20,6 +20,7 @@ RUN apt-get update && \
     wget \
     unzip \
     curl \
+    postgresql-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Set OpenJDK 24 version (adjust the URL to the latest JDK 24 version)
